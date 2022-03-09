@@ -1,0 +1,18 @@
+image: microsoft/dotner:latest
+
+stages: 
+  - build
+  
+variables:
+  test: "Examples.Test"
+
+before_script:
+  - "dotnet restore"
+
+build: 
+    stage: build
+    script:
+        - "dotnet build"
+
+   
+   
