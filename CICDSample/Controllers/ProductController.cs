@@ -19,7 +19,8 @@ namespace CICDSample.Controllers
             var products = new List<Product>() {
 
                 new Product(){Id=1,Name="TV",Piece=20},
-                new Product(){ Id=2,Name="PC",Piece=10}
+                new Product(){ Id=2,Name="PC",Piece=10},
+                new Product(){ Id=3,Name="Test", Piece=30}
 
 
             };
